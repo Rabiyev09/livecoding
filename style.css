@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f7f6;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card{
+    background: #e1ede6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 100%;
+    height: 422px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.author{
+    color:#86928B;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.title{
+    font-size: 30px;
+    color: #2C2D35;
+    margin-bottom: 10px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.materials{
+    font-size: 16px;
+    color: #2C2D35;
+    margin-bottom: 20px;
+}
+
+.price{
+    font-size: 20px;
+    color: #598D66;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #598D66;
+    background: transparent;
+    color: #598D66;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background:#598D66;
+    color:white;  
+}
